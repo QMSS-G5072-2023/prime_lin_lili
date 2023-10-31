@@ -9,6 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.9"
 sphinx = "^7.2.6"
+autoapi = "^1.7.0"
 
 
 [tool.poetry.dev-dependencies]
