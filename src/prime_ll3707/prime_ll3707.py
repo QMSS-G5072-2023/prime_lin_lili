@@ -1,13 +1,20 @@
 import math
 
 def is_prime(n):
-    """This function check if a number is prime.
-    Parameter:
-    - n (int): The integer input to check.
-    Return:
-    - bool: True if the input integer is a prime number, False otherwise.
-    Examples:
-    ```python
+    """
+    This function check if a number is prime.
+    
+    Parameters
+    ----------
+    n (int) : The integer input to check.
+    
+    Returns
+    -------
+    bool
+        True if the number is prime, False otherwise.
+    
+    Examples
+    --------
     >>> is_prime(3)
     True
     >>> is_prime(15)
