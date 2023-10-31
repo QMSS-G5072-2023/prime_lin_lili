@@ -1,7 +1,7 @@
 import math
 
 def is_prime(n):
-     """This function check if a number is prime.
+    """This function check if a number is prime.
     Parameter:
     - n (int): The integer input to check.
     Return:
@@ -19,3 +19,4 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+    
